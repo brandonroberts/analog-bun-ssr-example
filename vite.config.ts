@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => ({
   publicDir: 'src/assets',
   build: {
     target: ['es2020'],
+    outDir: 'dist/client',
   },
   resolve: {
     mainFields: ['module'],
