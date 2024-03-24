@@ -10,7 +10,7 @@
     "dev": "ng serve",
     "ng": "ng",
     "start": "bun run dev",
-    "build": "ng build",
+    "build": "BUILD_PRESET=bun ng build",
     "watch": "ng build --watch",
     "test": "ng test"
   },
