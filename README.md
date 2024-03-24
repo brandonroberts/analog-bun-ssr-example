@@ -20,7 +20,7 @@ Run `bun serve:ssr` to serve the built SSR application with Bun. Run the command
 
 ## Test
 
-Run `npm run test` to run unit tests with [Vitest](https://vitest.dev).
+Run `npm run test` to run unit tests with [Bun](https://bun.sh) using [happy-dom](https://github.com/capricorn86/happy-dom).
 
 ## Community
 
