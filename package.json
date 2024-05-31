@@ -7,11 +7,11 @@
     "node": ">=18.13.0"
   },
   "scripts": {
-    "dev": "ng serve",
+    "dev": "bun --bun vite",
     "ng": "ng",
     "start": "bun run dev",
     "serve:ssr": "bun dist/analog/server/index.mjs",
-    "build": "BUILD_PRESET=bun ng build",
+    "build": "BUILD_PRESET=bun bun --bun vite build",
     "watch": "ng build --watch",
     "test": "bun test"
   },
